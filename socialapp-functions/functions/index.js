@@ -40,13 +40,41 @@ app.get('/scream', (req, res) => {
             return res.json(screams)
         })
         .catch((error) => console.error(error))
-})
+});
 
+const FBAuth = (req, res, next) => {
+    let idToken;
+    if (req.headers.authorization && req.headers.authorization.startsWith('Bearer ')) {
+        idToken = req.headers.authorization.split('Bearer ')[1];
+    } else {
+        console.error('No token found')
+        return res.status(403).json({error: 'Unauthorized'});
+    }
 
-app.post('/scream', (req, res) => {
+    admin
+        .auth()
+        .verifyIdToken(idToken)
+        .then(decodedToken => {
+            req.user = decodedToken;
+            return db.collection('users')
+                .where('userId', '==', req.user.uid)
+                .limit(1)
+                .get();
+        })
+        .then(data => {
+            req.user.handle = data.docs[0].data().handle;
+            return next();
+        })
+        .catch(errors => {
+            console.error("error while verifying token", errors);
+            return res.status(403).json(errors);
+        })
+};
+
+app.post('/scream', FBAuth,(req, res) => {
     const newScream = {
         body: req.body.body,
-        userHandle: req.body.userHandle,
+        userHandle: req.user.handle,
         createdAt: new Date().toISOString()
     };
 
@@ -158,7 +186,9 @@ app.post('/login', (req, res) => {
             if(errors.code === 'auth/wrong-password') {
                 return res.status(403).json({general: 'wrong credentials, please try again'})
             }
-            return res.status(500).json({error: errors.code})
+            else {
+                return res.status(500).json({error: errors.code})
+            }
         })
 })
 
