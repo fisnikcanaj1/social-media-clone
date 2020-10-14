@@ -1,7 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c28979e-1eb4-42bb-9420-f7e033bf56c8" name="Default Changelist" comment="" />
+    <list default="true" id="7c28979e-1eb4-42bb-9420-f7e033bf56c8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/socialapp-functions/functions/handlers/screams.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/socialapp-functions/functions/handlers/users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/socialapp-functions/functions/util/admin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/socialapp-functions/functions/util/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/socialapp-functions/functions/util/fbauth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/socialapp-functions/functions/util/validators.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socialapp-functions/functions/dbscream.js" beforeDir="false" afterPath="$PROJECT_DIR$/socialapp-functions/functions/dbscream.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/socialapp-functions/functions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/socialapp-functions/functions/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +43,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/fisnikcanaj1/social-media-clone" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1idJNNVJQOknJOBlCGeU1iLi3V7" />
   <component name="ProjectViewState">
@@ -37,11 +78,55 @@
       <option name="presentableId" value="Default" />
       <updated>1602231494565</updated>
       <workItem from="1602231495623" duration="4783000" />
-      <workItem from="1602243105444" duration="11424000" />
+      <workItem from="1602243105444" duration="20749000" />
+      <workItem from="1602487856633" duration="21287000" />
+      <workItem from="1602571948301" duration="6787000" />
+      <workItem from="1602579775849" duration="1011000" />
+      <workItem from="1602586466095" duration="10016000" />
+      <workItem from="1602661488871" duration="5695000" />
+      <workItem from="1602671861452" duration="17674000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1229" y="355" width="596" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1602503001045">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="1229" y="355" width="596" height="403" key="#com.intellij.fileTypes.FileTypeChooser/72.27.1848.1053@72.27.1848.1053" timestamp="1602503001045" />
+    <state x="1235" y="127" width="585" height="853" key="DiffContextDialog" timestamp="1602590425201">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="1235" y="127" width="585" height="853" key="DiffContextDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1602590425201" />
+    <state x="1313" y="165" width="381" height="789" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1602702751333">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="1313" y="165" width="381" height="789" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/72.27.1848.1053@72.27.1848.1053" timestamp="1602702751333" />
+    <state x="1200" y="295" width="618" height="522" key="find.popup" timestamp="1602703346577">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="1200" y="295" width="618" height="522" key="find.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1602703346577" />
+    <state x="1143" y="252" key="run.anything.popup" timestamp="1602579119290">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="1143" y="252" key="run.anything.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1602579119290" />
+    <state x="1161" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1602704656392">
+      <screen x="72" y="27" width="1848" height="1053" />
+    </state>
+    <state x="1161" y="259" width="672" height="678" key="search.everywhere.popup/72.27.1848.1053@72.27.1848.1053" timestamp="1602704656392" />
   </component>
 </project>
